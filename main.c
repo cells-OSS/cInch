@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    printf("Would you like to convert inches to centimeters or centimeters to inches(1/2)?\n");
+    printf("##################################\n 1: inches to centimeters\n 2: centimeters to inches\n##################################\n");
+    printf("> ");
     int a;
     scanf("%d", &a);
     
