@@ -12,6 +12,9 @@ int main() {
         scanf("%d", &inch);
         float cm = inch * 2.54;
         printf("%f\n", cm);
+	printf("Press Enter to exit...");
+	getchar();
+	getchar();
         return 0;
     }
 
@@ -21,7 +24,9 @@ int main() {
         scanf("%d", &cm);
         float inch = cm / 2.54;
         printf("%f\n", inch);
+	printf("Press Enter to exit...");
+	getchar();
+	getchar();
         return 0;
     }
-    return 0;
 }
